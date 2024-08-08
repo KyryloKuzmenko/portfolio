@@ -1,17 +1,13 @@
 <header>
   <div class="container header-content">
-    <!-- <div class="left-side">
+    <div class="left-side">
       <img
-        src="./img/header_img/logo-photo-header.png"
-        srcset="
-          ./img/header_img/logo-photo-header.png    1x,
-          ./img/header_img/logo-photo-header@2x.png 2x
-        "
+        src=""
         alt="Logo"
         class="header-logo"
       />
-      <span class="text">Jefferson*</span>
-    </div> -->
+      <span class="text">Kyrylo*</span>
+    </div>
     <div>
       <button id="menu-button" class="menu-button">Menu</button>
       <ul class="menu-hidden-items" tabindex="0">
@@ -23,9 +19,21 @@
     </div>
     <a class="order-button" href="#work_together">Order the project</a>
     <button class="menu-open-button-btn">
-      <svg class="menu-open-button-svg" width="28" height="28">
-        <use href="./img/symbol-defs.svg#icon-btn-burger-menu"></use>
-      </svg>
+      burger
     </button>
   </div>
 </header>
+<div class="backdrop">
+  <button class="close-btn" type="button" aria-label="Close">
+    X
+  </button>
+  <div class="menu-list">
+    <ul class="menu-items">
+      <li class="menu-item">About me</li>
+      <li class="menu-item">Benefits</li>
+      <li class="menu-item">Projects</li>
+      <li class="menu-item">FAQ</li>
+    </ul>
+  </div>
+  <a class="order-backdrop-button"  href="#work_together">Order the project</a>
+</div>
