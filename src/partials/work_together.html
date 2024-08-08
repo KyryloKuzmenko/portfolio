@@ -1,0 +1,61 @@
+<footer class="footer" id="work_together">
+  <div class="container footer-container">
+    <img
+      src=""
+      alt="My photo"
+      class="logo"
+      id="#header"
+      width="44"
+      height="44"
+    />
+    <h2 class="title">Let's <span class="title-work">work</span> together</h2>
+    <form class="form-container" id="contact-form">
+      <div class="form-input-container">
+        <div class="input-container">
+          <label class="send-label" for="user-mail">
+            <input
+              type="email"
+              class="send-input"
+              placeholder="clients@gmail.com"
+              name="send-email"
+              id="user-mail"
+              pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+            />
+          </label>
+          <div class="message" id="email-message"></div>
+        </div>
+        <div class="textarea-container">
+          <textarea
+            class="form-area"
+            name="user-coment"
+            id="user-coment"
+            placeholder="coments"
+            required
+          ></textarea>
+          <div class="message" id="coment-message"></div>
+        </div>
+        <button class="btn-send">Send</button>
+      </div>
+    </form>
+    <address class="mobile-address" id="my-contacts">
+        <a class="email-address-link" href="mailto:kkuzmenko1992@gmail.com">
+            kkuzmenko1992@gmail.com
+        </a>
+        <a class="mobile-address-link" href="tel:+17098530578">+1 709 853 05 78</a>
+    </address>
+  </div>
+  <!------------- backdrop ------------->
+  <div class="footer-backdrop">
+    <div class="modal hidden" id="modal">
+        <button class="footer-close-btn" id="close-button">
+            X
+        </button>
+        <h3 class="backdrop-title">
+            Thank you for your interest in cooperation!
+        </h3>
+        <p class="backdrop-text">
+            I'll contact you shortly to discuss further details and opportunities for cooperation. Please stay in touch.
+        </p>
+    </div>
+  </div>
+</footer>
